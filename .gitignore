@@ -1,0 +1,34 @@
+# ROS 2 / Colcon
+build/
+install/
+log/
+
+# ROS / Gazebo generated files
+*.log
+*.bag
+*.db3
+*.mcap
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.so
+*.a
+
+# Temporary files
+*.tmp
+*.bak
